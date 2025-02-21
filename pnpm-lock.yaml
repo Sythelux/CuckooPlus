@@ -885,8 +885,8 @@ packages:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
 
-  '@intlify/shared@9.14.1':
-    resolution: {integrity: sha512-XjHu6PEQup9MnP1x0W9y0nXXfq9jFftAYSfV11hryjtH4XqXP8HrzMvXI+ZVifF+jZLszaTzIhvukllplxTQTg==}
+  '@intlify/shared@9.14.2':
+    resolution: {integrity: sha512-uRAHAxYPeF+G5DBIboKpPgC/Waecd4Jz8ihtkpJQD5ycb5PwXp0k/+hBGl5dAjwF7w+l74kz/PKA8r8OK//RUw==}
     engines: {node: '>= 16'}
 
   '@intlify/vue-i18n-loader@1.1.0':
@@ -5068,11 +5068,11 @@ snapshots:
 
   '@discoveryjs/json-ext@0.5.7': {}
 
-  '@intlify/shared@9.14.1': {}
+  '@intlify/shared@9.14.2': {}
 
   '@intlify/vue-i18n-loader@1.1.0':
     dependencies:
-      '@intlify/shared': 9.14.1
+      '@intlify/shared': 9.14.2
       js-yaml: 3.14.1
       json5: 2.2.3
 
