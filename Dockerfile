@@ -12,8 +12,8 @@ FROM base AS build
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 RUN pnpm run build
 
-FROM base
-COPY --from=prod-deps /app/node_modules /app/node_modules
-COPY --from=build /app/dist /app/dist
-EXPOSE 8000
-CMD [ "pnpm", "start" ]
+FROM python:3
+COPY --from=build /app/dist /app
+WORKDIR /app
+EXPOSE 80
+ENTRYPOINT ["python3", "-m", "http.server", "80"]
