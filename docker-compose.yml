@@ -1,0 +1,5 @@
+services:
+  app:
+    build: .
+    labels:
+      - "traefik.http.services.${COMPOSE_PROJECT_NAME}secure.loadbalancer.server.port=8000"
