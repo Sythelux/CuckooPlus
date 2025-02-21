@@ -20,7 +20,7 @@
     "autosize": "^4.0.4",
     "axios": "^1.7.7",
     "core-js": "^3.38.1",
-    "dompurify": "^3.1.7",
+    "dompurify": "^3.2.4",
     "file-saver": "^2.0.5",
     "lodash": "npm:lodash-es@^4.17.21",
     "masonry-layout": "^4.2.2",
